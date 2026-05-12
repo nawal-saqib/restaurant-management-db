@@ -975,20 +975,20 @@ INSERT INTO Customer (CustID, cust_name, phone, email, age, gender) VALUES
 GO
 -- Insert MenuItems
 INSERT INTO MenuItems (MenuItemID, item_name, descriptions, price, category, comments, prep_time, is_available) VALUES
-(1, 'Seared Scallops', 'Pan-seared diver scallops, cauliflower purée, brown butter and capers', 31.58, 'main', 'contains nuts - be careful', 47, 0),
+(1, 'Seared Scallops', 'Pan-seared diver scallops, cauliflower purÃ©e, brown butter and capers', 31.58, 'main', 'contains nuts - be careful', 47, 0),
 (2, 'Beef Carpaccio', 'Thinly sliced raw beef, arugula, shaved parmesan, lemon vinaigrette', 30.99, 'main', 'contains dairy', 9, 1),
 (3, 'Lobster Bisque', 'Silky lobster bisque finished with cream and cognac', 65.75, 'main', 'very spicy', 47, 1),
 (4, 'Foie Gras Torchon', 'Duck foie gras with fig jam and toasted brioche', 60.69, 'main', 'gluten free', 18, 1),
 (5, 'Truffle Arancini', 'Risotto balls with black truffle, fontina, and herb aioli', 52.3, 'main', 'very hot', 53, 1),
 (6, 'Heirloom Tomato Salad', 'Heirloom tomatoes, burrata, basil oil, aged balsamic', 53.42, 'main', 'very spicy', 60, 1),
-(7, 'Crispy Octopus', 'Charred octopus, chickpea purée, smoked paprika oil', 53.6, 'main', 'very spicy', 49, 1),
-(8, 'Duck Confit', 'Slow-cooked duck leg, pomme purée, cherry gastrique', 58.14, 'main', 'contains nuts - be careful', 34, 1),
+(7, 'Crispy Octopus', 'Charred octopus, chickpea purÃ©e, smoked paprika oil', 53.6, 'main', 'very spicy', 49, 1),
+(8, 'Duck Confit', 'Slow-cooked duck leg, pomme purÃ©e, cherry gastrique', 58.14, 'main', 'contains nuts - be careful', 34, 1),
 (9, 'Wagyu Striploin', 'Grilled wagyu striploin, charred broccolini, red wine reduction', 56.5, 'main', 'very hot', 41, 1),
 (10, 'Pan-Roasted Halibut', 'Halibut, fennel, citrus beurre blanc', 59.46, 'main', 'very spicy', 28, 1),
 (11, 'Mushroom Risotto', 'Creamy arborio risotto with wild mushrooms and parmesan', 63.38, 'main', 'gluten free', 12, 1),
-(12, 'Lamb Loin', 'Herb-crusted lamb loin, minted pea purée, rosemary jus', 24.3, 'main', 'chef''s recommendation', 30, 1),
-(13, 'Citrus Cured Salmon', 'Cured salmon, dill crème fraîche, preserved lemon', 33.98, 'main', 'very hot', 28, 1),
-(14, 'Pappardelle Bolognese', 'Fresh pappardelle, slow-braised beef ragù, pecorino', 38.4, 'main', 'contains dairy', 30, 1),
+(12, 'Lamb Loin', 'Herb-crusted lamb loin, minted pea purÃ©e, rosemary jus', 24.3, 'main', 'chef''s recommendation', 30, 1),
+(13, 'Citrus Cured Salmon', 'Cured salmon, dill crÃ¨me fraÃ®che, preserved lemon', 33.98, 'main', 'very hot', 28, 1),
+(14, 'Pappardelle Bolognese', 'Fresh pappardelle, slow-braised beef ragÃ¹, pecorino', 38.4, 'main', 'contains dairy', 30, 1),
 (15, 'Seared Tuna', 'Sesame-seared tuna, soy-ginger glaze, microgreens', 49.05, 'main', 'contains dairy', 55, 1),
 (16, 'Oysters Rockefeller', 'Baked oysters with spinach, bacon, and hollandaise', 56.9, 'main', 'contains nuts - be careful', 28, 1),
 (17, 'Stuffed Quail', 'Roasted quail stuffed with wild rice and herbs', 37.74, 'main', 'very spicy', 54, 1),
@@ -1010,7 +1010,7 @@ INSERT INTO MenuItems (MenuItemID, item_name, descriptions, price, category, com
 (33, 'Cheese Selection', 'Assorted artisan cheeses, quince paste, crackers', 25.17, 'main', 'gluten free', 21, 1),
 (34, 'Smoked Trout', 'Smoked trout, horseradish cream, rye crisps', 29.86, 'main', 'gluten free', 46, 1),
 (35, 'Kombu Cured Hamachi', 'Hamachi cured with kombu, yuzu kosho', 26.06, 'main', 'contains nuts - be careful', 47, 1),
-(36, 'Braised Short Rib', 'Red wine-braised short rib, parsnip purée', 33.91, 'main', 'contains nuts - be careful', 59, 1),
+(36, 'Braised Short Rib', 'Red wine-braised short rib, parsnip purÃ©e', 33.91, 'main', 'contains nuts - be careful', 59, 1),
 (37, 'Cornish Game Hen', 'Roasted game hen, tarragon jus, seasonal vegetables', 55.39, 'main', 'very hot', 11, 1),
 (38, 'Seared Foie Gras', 'Seared foie gras, caramelized apple, brioche', 32.53, 'main', 'very hot', 50, 1),
 (39, 'Pumpkin Gnocchi', 'Pumpkin gnocchi, sage-brown butter', 53.95, 'main', 'very spicy', 44, 1),
@@ -1018,8 +1018,8 @@ INSERT INTO MenuItems (MenuItemID, item_name, descriptions, price, category, com
 (41, 'Saffron Risotto', 'Saffron risotto, shellfish medley', 50.47, 'main', 'very spicy', 29, 1),
 (42, 'Truffle Gnocchi', 'Potato gnocchi with black truffle cream and parmesan shavings', 58.50, 'main', 'rich & creamy', 18, 1),
 (43, 'Lobster Broth', 'Slow-simmered lobster broth with cream and cognac', 42.00, 'starter', 'shellfish, contains dairy', 12, 1),
-(44, 'Charcoal-Grilled Lamb Chops', 'Herb-marinated lamb chops with smoked eggplant purée', 72.75, 'main', 'chef special', 22, 1),
-(45, 'Vanilla Bean Crème Brûlée', 'Classic custard with caramelized sugar crust', 29.90, 'dessert', 'contains eggs & dairy', 14, 1);
+(44, 'Charcoal-Grilled Lamb Chops', 'Herb-marinated lamb chops with smoked eggplant purÃ©e', 72.75, 'main', 'chef special', 22, 1),
+(45, 'Vanilla Bean CrÃ¨me BrÃ»lÃ©e', 'Classic custard with caramelized sugar crust', 29.90, 'dessert', 'contains eggs & dairy', 14, 1);
 GO
 -- Insert Inventory
 INSERT INTO Inventory (InventoryID, item_name, current_stock, reorder_level, category, storage_location) VALUES
@@ -10109,7 +10109,7 @@ WHERE PurchaseItem.PurchaseID IN (
       )
   AND OrderItem.MenuItemID IS NULL;
 GO
--- 6. Most ordered item during peak hours (7 PM – 10 PM)
+-- 6. Most ordered item during peak hours (7 PM Â– 10 PM)
 SELECT TOP 1
        m.MenuItemID,
        m.item_name,
@@ -10141,7 +10141,7 @@ JOIN PurchaseItem pi ON po.PurchaseID = pi.PurchaseID
 GROUP BY s.SupplierID, s.supplier_name
 ORDER BY total_spent DESC;
 GO
--- 9. Employee Performance – Number of Orders Served
+-- 9. Employee Performance Â– Number of Orders Served
  SELECT 
     e.EmpID,
     e.emp_name,
